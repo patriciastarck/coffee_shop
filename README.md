@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Projeto PetDev
 
-## Getting Started
+Este é um projeto web moderno construído com **Next.js 15** (usando o App Router) e **React 19**.
 
-First, run the development server:
+O projeto é escrito em **TypeScript** e utiliza **Tailwind CSS 4** para estilização, em conjunto com a biblioteca de componentes **shadcn/ui** para uma UI limpa e acessível.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Ele também inclui várias bibliotecas para funcionalidades ricas, como:
+* Validação de formulários com **React Hook Form** e **Zod**.
+* Um carrossel de imagens com **Embla Carousel**.
+* Animações de scroll com **AOS (Animate on Scroll)**.
+* Bibliotecas de ícones **Lucide** e **Phosphor Icons**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 💻 Tecnologias Utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Este projeto utiliza um conjunto de ferramentas moderno:
 
-## Learn More
+### Framework Principal
+* **Next.js 15.5**
+* **React 19.1**
+* **TypeScript 5**
 
-To learn more about Next.js, take a look at the following resources:
+### Estilização e UI
+* **Tailwind CSS 4**
+* **shadcn/ui** (estilo "New York")
+* **Lucide React** (Ícones)
+* **Phosphor Icons** (Ícones)
+* `tailwind-merge` & `clsx` (Utilitários de classe)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Funcionalidades
+* **React Hook Form** & **Zod** (Gerenciamento e validação de formulários)
+* **Embla Carousel** (Carrossel)
+* **AOS** (Animações ao rolar)
+* **tw-animate-css** (Plugin de Animate.css para Tailwind)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Ferramentas (Tooling)
+* **ESLint** (com a nova configuração "Flat Config" - `eslint.config.mjs`)
+* **PostCSS**
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🏁 Como Começar
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Siga estas etapas para configurar e executar o projeto localmente.
+
+### Pré-requisitos
+
+* **Node.js** (versão 18.18 ou mais recente)
+* **Um gerenciador de pacotes** (npm, yarn, pnpm ou bun)
+
+### Instalação e Execução
+
+1.  **Clone o repositório** (ou certifique-se de ter os arquivos do projeto).
+
+2.  **Navegue até o diretório do projeto:**
+    ```bash
+    cd petdev
+    ```
+
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    # ou
+    yarn install
+    # ou
+    pnpm install
+    ```
+
+4.  **Crie um arquivo de ambiente (se necessário):**
+    O arquivo `.gitignore` está configurado para ignorar arquivos `.env*`. Se o seu projeto precisar de chaves de API ou outras variáveis de ambiente, crie um arquivo `.env.local` na raiz.
+
+5.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+
+6.  **Abra seu navegador:**
+    Visite [http://localhost:3000](http://localhost:3000) para ver o projeto em ação.
+
+---
+
+## 📜 Scripts Disponíveis
+
+Aqui estão os scripts definidos no `package.json`:
+
+* `npm run dev`: 🚀 Inicia o servidor de desenvolvimento em `localhost:3000`.
+* `npm run build`: 📦 Compila o projeto para produção.
+* `npm run start`: ⚡ Inicia o servidor de produção (requer `npm run build` primeiro).
+* `npm run lint`: 🧹 Executa o ESLint para verificar erros de linting e estilo de código.
