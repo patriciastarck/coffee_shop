@@ -10,20 +10,20 @@ export default function Contact() {
     >
       <article className="shadow-lg shadow-[#392418] rounded-lg flex flex-col md:flex-row max-w-4x1 w-full relative items-center">
         <aside
-          data-aos="fade-right"
+          // data-aos="fade-right"
           data-aos-delay="300"
-          className=" w-full h-screen  md:w-1/2 relative flex justify-center items-center"
+          className="w-full h-full  md:w-1/2 relative flex justify-center items-center my-5"
         >
           <Image src={Heart} alt="coração de café" className="w-10/12" />
         </aside>
 
         <section
-          data-aos="fade-left"
+          // data-aos="fade-left"
           data-aos-delay="300"
-          className="sm:w-full lg:w-5/12 p-8 "
+          className="sm:w-full lg:w-5/12 p-10"
         >
           <header className=" mb-6">
-            <h2 className="text-4xl text-[#392418] text-center mb-4">
+            <h2 className="text-4xl text-[#392418] text-center mb-4 ">
               Fale conosco
             </h2>
           </header>
@@ -31,7 +31,7 @@ export default function Contact() {
           <form
             action="https://formspree.io/f/mdklbpnb"
             method="POST"
-            className="w-full space-y-4 m-10"
+            className="w-full space-y-4 m-5 mx-auto"
           >
             <div>
               <label

@@ -32,8 +32,7 @@ const services = [
   {
     title: "Blend entre outros terroir",
     description: "Mescla entre Café das Matas de Minas e Mogiana Paulista.",
-    icon: <Coffee />,
-    duration: "1h",
+    icon: <Coffee />,    
     image: <Image src={bag5} alt="saca de cafe" />,
   },
   {
@@ -63,7 +62,7 @@ export function Services() {
   }
 
   return (
-    <section className="bg- py-16">
+    <section className="bg- py-16 select-none">
       <div className="container mx-auto px-4 text-[#392418]">
         <h2 className="text-4xl mb-12">Temos os melhores blends de café</h2>
 
