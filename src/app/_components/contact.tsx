@@ -42,15 +42,15 @@ export function Contact() {
 
             <div className="flex gap-2 pt-1.5 justify-center ">
               <a href="#" target="_blank">
-                <FacebookLogoIcon className="w-6 h-6 hover:text-green-800" />
+                <FacebookLogoIcon className="w-8 h-8 hover:text-green-800" />
               </a>
 
               <a href="#" target="_blank">
-                <InstagramLogoIcon className="w-6 h-6 hover:text-green-800" />
+                <InstagramLogoIcon className="w-8 h-8 hover:text-green-800" />
               </a>
 
               <a href="#" target="_blank">
-                <YoutubeLogoIcon className="w-6 h-6 hover:text-green-800" />
+                <YoutubeLogoIcon className="w-8 h-8 hover:text-green-800" />
               </a>
             </div>
           </div>

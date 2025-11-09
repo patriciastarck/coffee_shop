@@ -32,7 +32,7 @@ const services = [
   {
     title: "Blend entre outros terroir",
     description: "Mescla entre Café das Matas de Minas e Mogiana Paulista.",
-    icon: <Coffee />,    
+    icon: <Coffee />,
     image: <Image src={bag5} alt="saca de cafe" />,
   },
   {
@@ -62,7 +62,7 @@ export function Services() {
   }
 
   return (
-    <section className="bg- py-16 select-none">
+    <section className="py-16 select-none">
       <div className="container mx-auto px-4 text-[#392418]">
         <h2 className="text-4xl mb-12">Temos os melhores blends de café</h2>
 
@@ -75,7 +75,7 @@ export function Services() {
                   className="flex-[0_0_100%] min-w-0 md:flex-[0_0_calc(100%/3)] px-3"
                 >
                   <article className=" rounded-2xl p-6 space-y-4 h-full flex flex-col">
-                    <div className="flex-1 flex items-start justify-between">
+                    <div className="flex-1 flex items-start justify-center">
                       <div className="flex gap-3">
                         <span className="text-2xl text-[#392418]">
                           {item.icon}
@@ -84,7 +84,7 @@ export function Services() {
                           <h3 className="text-[#392418] font-bold text-md my-1">
                             {item.title}
                           </h3>
-                          <p className="text-sm select-none w-45 h-auto rounded-lg object-cover ">
+                          <p className="text-sm select-none w-45 h-auto rounded-lg object-cover">
                             {item.image}
                           </p>
                         </div>
@@ -119,9 +119,6 @@ export function Services() {
           </button>
         </div>
       </div>
-      {/* <div className="flex items-center justify-start">
-        <Image src={green} alt="whiskas" className="w-50 h-50 opacity-70 " />,
-      </div> */}      
     </section>
   );
 }

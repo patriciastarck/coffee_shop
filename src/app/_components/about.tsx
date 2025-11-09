@@ -12,7 +12,7 @@ export function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 items-center">
           <div
             className="w-full relative"
-            data-aos="fade-up-right"
+            data-aos="fade-right"
             data-oas-delay="300"
           >
             <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
@@ -39,7 +39,7 @@ export function About() {
 
           <div
             className="text-[#F2DAC4] space-y-6 mt-10 ml-3"
-            data-aos="fade-up-"
+            data-aos="fade-left"
             data-oas-delay="300"
           >
             <h2 className=" text-[#F2DAC4] text-4xl">SOBRE</h2>
@@ -66,7 +66,7 @@ export function About() {
             <div className="flex gap-2">
               <a
                 href="#"
-                className="bg-[#B27944] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md"
+                className="bg-[#B27944] text-white font-bold flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md"
               >
                 <WhatsappLogoIcon className="w-5 h-5 text-white" />
                 WhatsApp
