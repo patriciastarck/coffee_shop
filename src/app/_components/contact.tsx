@@ -1,9 +1,4 @@
-import golden from "../../../public/golden.png";
-import royal from "../../../public/royal.png";
-import primier from "../../../public/primier.png";
-import whiskas from "../../../public/whiskas.png";
-import natural from "../../../public/natural.png";
-import Verde from "../../../public/coffee-green.png";
+
 import Gaia from "../../../public/gaia_cafe.png";
 import { MapPin, Phone } from "lucide-react";
 import Image from "next/image";
@@ -12,15 +7,6 @@ import {
   InstagramLogoIcon,
   YoutubeLogoIcon,
 } from "@phosphor-icons/react/dist/ssr";
-
-const brands = [
-  { name: "Royal Canin", logo: royal },
-  { name: "Golden", logo: golden },
-  { name: "Primier", logo: primier },
-  { name: "Formula Natural", logo: natural },
-  { name: "Whiskas", logo: whiskas },
-  { name: "Golden", logo: golden },
-];
 
 export function Contact() {
   return (
