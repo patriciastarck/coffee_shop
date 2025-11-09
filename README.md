@@ -1,4 +1,4 @@
-# 🚀 Projeto PetDev
+# 🚀 Projeto CofDev
 
 Este é um projeto web moderno construído com **Next.js 15** (usando o App Router) e **React 19**.
 
