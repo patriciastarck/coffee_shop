@@ -7,7 +7,7 @@ export function Hero() {
     <section
       className="
       bg-black
-      bg-[url('/22.png')]  
+      bg-[url('/coffee_cup.png')]  
       bg-cover 
       bg-center 
       bg-no-repeat         

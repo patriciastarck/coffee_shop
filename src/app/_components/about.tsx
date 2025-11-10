@@ -1,5 +1,5 @@
 import Image from "next/image";
-import about1Img from "../../../public/coffee_local2.jpg";
+import about1Img from "../../../public/coffee_local.jpg";
 import about2Img from "../../../public/coffee_name2.png";
 
 import { Award, Cake, CakeSlice, Check, MapPin } from "lucide-react";
